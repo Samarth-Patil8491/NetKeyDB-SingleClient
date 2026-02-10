@@ -5,8 +5,6 @@
 #include <winsock2.h>
 #include <algorithm>
 #include <thread>
-#include <mutex>
-
 
 #pragma comment(lib, "ws2_32.lib")
 
@@ -29,7 +27,7 @@ int main() {
     bind(server_fd, (sockaddr*)&address, sizeof(address));
     listen(server_fd, 5);
 
-    cout << "Server started on port 8080...\n";
+    cout << "Server started on port 8080 pls try to connect.......\n";
 
     SOCKET client_socket = accept(server_fd, nullptr, nullptr);
     cout << "Client connected!\n";
@@ -98,3 +96,4 @@ int main() {
     WSACleanup();
     return 0;
 }
+
