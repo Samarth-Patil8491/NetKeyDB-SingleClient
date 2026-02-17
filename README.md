@@ -83,23 +83,15 @@ ncat localhost 8080 ##Open power shell and type thus command and wait for the nc
 **Learning Outcomes**
 
 This project helps understand:
-
 Socket programming fundamentals
-
 Client–server communication
-
 In-memory database design
-
 Command interpreters
-
 Basics of backend system development
 
 **Future Improvements**
 
 Multi-client support (threads)
-
 Authentication system
-
 Data persistence (save to file)
-
 More commands (LIST, UPDATE, etc.)
